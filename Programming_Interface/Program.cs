@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Programming_Interface.Algorithms;
+using System;
 
 namespace Programming_Interface
 {
@@ -6,7 +7,9 @@ namespace Programming_Interface
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TwoSum solution = new TwoSum();
+            var result = solution.Execute(new int[] { 3,2,3 },6);
+
         }
     }
 }
