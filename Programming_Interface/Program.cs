@@ -7,9 +7,8 @@ namespace Programming_Interface
     {
         static void Main(string[] args)
         {
-            TwoSum solution = new TwoSum();
-            var result = solution.Execute(new int[] { 3,2,3 },6);
-
+            RemoveElement p = new RemoveElement();
+            var result = p.Execute(new int[] { 1},2);
         }
     }
 }
